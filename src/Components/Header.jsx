@@ -8,7 +8,7 @@ const Header = () => {
           Adedolapo Adegboye (Ade)
         </h1>
         <h2 className="font-semibold text-md lg:text-lg tracking-tighter text-slate-200 pt-2">
-          Sensor Systems Engineer-in-Training and Aspiring Frontend Developer
+          Sensor Systems Engineer-in-Training and Web Developer
         </h2>
         <h3 className="font-normal text-md lg:text-md tracking-tight text-slate-200 py-2">
           I design reliable IoT sensors and create amazing user experiences on

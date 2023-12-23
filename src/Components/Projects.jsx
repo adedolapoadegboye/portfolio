@@ -4,21 +4,19 @@ import weatherappscreenshot from "../images/weather-forecaster-screenshot.png";
 import calcscreenshot from "../images/calculator-project-screenshot.png";
 import portfolioscreenshot from "../images/portfolio-screenshot.png";
 
-
-
 const Projects = () => {
   return (
     <div className="flex flex-col pb-10 text-justify">
       <div>
-        <h1 className="font-semibold text-md lg:text-lg tracking-tighter text-slate-200 pt-2">
+        <h1 id="projects" className="font-semibold text-md lg:text-lg tracking-tighter text-slate-200 pt-2">
           Projects
         </h1>
         <br></br>
       </div>
       {/* Project 1 */}
-      <div className="flex">
+      <div className="flex pb-5">
         <div className="pe-10 w-1/4 hidden lg:flex">
-          <img
+          <img className="w-[50px] h-[25px] md:w-[150px] md:h-[50px] lg:w-[300px] lg:h-[80px] "
             src={weatherappscreenshot}
             alt="weather forecaster project screenshot"
             width={500}
@@ -53,7 +51,7 @@ const Projects = () => {
               rel="noreferrer"
               className="flex hover:text-teal-300"
             >
-              <h3 className="w-fit">Source code</h3>
+              <h3 className="w-fit pe-2">Source code</h3>
               <FaExternalLinkAlt size={12} />
             </a>
           </div>
@@ -81,9 +79,9 @@ const Projects = () => {
       </div>
       <br></br>
       {/* Project 2 */}
-      <div className="flex">
+      <div className="flex pb-5">
         <div className="pe-10 w-1/4 hidden lg:flex">
-          <img
+        <img className="w-[50px] h-[25px] md:w-[150px] md:h-[75px] lg:w-[300px] lg:h-[80px] "
             src={calcscreenshot}
             alt="calculator project screenshot"
             width={500}
@@ -116,7 +114,7 @@ const Projects = () => {
               rel="noreferrer"
               className="flex hover:text-teal-300"
             >
-              <h3 className="w-fit">Source code</h3>
+              <h3 className="w-fit pe-2">Source code</h3>
               <FaExternalLinkAlt size={12} />
             </a>
           </div>
@@ -137,7 +135,7 @@ const Projects = () => {
       {/* Project 3 */}
       <div className="flex">
         <div className="pe-10 w-1/4 hidden lg:flex">
-          <img
+        <img className="w-[50px] h-[25px] md:w-[150px] md:h-[75px] lg:w-[300px] lg:h-[80px] "
             src={portfolioscreenshot}
             alt="portfolio screenshot"
             width={500}
@@ -158,18 +156,18 @@ const Projects = () => {
           </div>
           <div className="pb-5 h-fit w-fit">
             <h3>
-              Personal portfolio/resume website built with React, styled with
-              TailwindCSS, and hosted on Vercel
+              This portfolio/resume website was built with Reactjs, styled with
+              TailwindCSS, and hosted on Vercel.
             </h3>
           </div>
           <div className="pb-5">
             <a
-              href="https://github.com/adedolapoadegboye/calculator"
+              href="https://github.com/adedolapoadegboye/portfolio"
               target="_blank"
               rel="noreferrer"
               className="flex hover:text-teal-300"
             >
-              <h3 className="w-fit">Source code</h3>
+              <h3 className="w-fit pe-2">Source code</h3>
               <FaExternalLinkAlt size={12} />
             </a>
           </div>
@@ -183,6 +181,17 @@ const Projects = () => {
             <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
               Vercel
             </button>
+          </div>
+          <div className="py-2 hidden">
+            <a
+              href="TBC"
+              target="_blank"
+              rel="noreferrer"
+              className="flex text-white hover:underline hover:underline-offset-2 hover:text-teal-300 pt-5"
+            >
+              <h1 className="pe-2">View Full Project Catalog</h1>
+              <FaExternalLinkAlt size={12} />
+            </a>
           </div>
         </div>
       </div>
