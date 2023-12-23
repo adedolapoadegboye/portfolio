@@ -145,7 +145,7 @@ const Projects = () => {
         <div className="pe-10 w-full">
           <div className=" hover:text-teal-300">
             <a
-              href="https://adedolapo.info"
+              href="https://www.adedolapo.dev"
               target="_blank"
               rel="noreferrer"
               className="flex"
@@ -184,7 +184,7 @@ const Projects = () => {
           </div>
           <div className="py-2 hidden">
             <a
-              href="https://portfolio-resume-coral.vercel.app/"
+              href="https://adedolapo.dev"
               target="_blank"
               rel="noreferrer"
               className="flex text-white hover:underline hover:underline-offset-2 hover:text-teal-300 pt-5"
