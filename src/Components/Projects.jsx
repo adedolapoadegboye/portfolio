@@ -184,7 +184,7 @@ const Projects = () => {
           </div>
           <div className="py-2 hidden">
             <a
-              href="TBC"
+              href="https://portfolio-resume-coral.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="flex text-white hover:underline hover:underline-offset-2 hover:text-teal-300 pt-5"
