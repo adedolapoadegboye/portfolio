@@ -50,7 +50,7 @@ const WorkExperience = () => {
               Documentations
             </button>
           </div>
-          <div>
+          <div className="hidden">
             <a
               href="https://drive.google.com/file/d/1lspIiInBWXffOohOf7EmahowaZNmPW_d/view?usp=share_link"
               target="_blank"
@@ -63,6 +63,8 @@ const WorkExperience = () => {
           </div>
         </div>
       </div>
+      <br></br>
+<br></br>
       {/* Calgary Parking Authority */}
       <div className="flex">
         <div className="pe-10 w-1/4 lg:flex">
@@ -101,6 +103,7 @@ const WorkExperience = () => {
               Documentations
             </button>
           </div>
+          <br></br>
           <div>
             <a
               href="https://drive.google.com/file/d/1VMTODrDHeRGGPSQpWc74iFXFOaguCnBG/view?usp=share_link"
