@@ -13,7 +13,7 @@ import Animation from "./Components/Animation";
 function App() {
   return (
     <div className="text-white bg-slate-900 pb-5 scroll-smooth">
-      <div className="flex flex-col lg:flex-row py-[40px] lg:py-[80px] px-[40px] lg:px-[100px] xl:px-[] bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 h-fit">
+      <div className="flex flex-col lg:flex-row py-[40px] lg:py-[80px] px-[40px] lg:px-[100px] bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 h-fit">
         <div className="lg:flex lg:flex-col lg:justify-between w-full h-full lg:w-1/2  sticky lg:top-[80px] lg:left-[100px]">
           <Header />
           <Socials />
