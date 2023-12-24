@@ -103,7 +103,7 @@ const WorkExperience = () => {
           </div>
           <div>
             <a
-              href="https://drive.google.com/file/d/1lspIiInBWXffOohOf7EmahowaZNmPW_d/view?usp=share_link"
+              href="https://drive.google.com/file/d/1VMTODrDHeRGGPSQpWc74iFXFOaguCnBG/view?usp=share_link"
               target="_blank"
               rel="noreferrer"
               className="flex text-white hover:underline hover:underline-offset-2 hover:text-teal-300 pt-5"
