@@ -31,7 +31,7 @@ const Education = () => {
           </div>
           <div className="pb-5 w-fit h-fit text-justify">
             <h3>
-              Graduated with a CGPA of 3.96/4.00
+              Graduated with a CGPA of 3.94/4.00
             </h3>
           </div>
           <div className="hidden">
