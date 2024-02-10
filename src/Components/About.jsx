@@ -27,8 +27,8 @@ const About = () => {
       <br></br>
       <h3>
         I am not just looking for{" "}
-        <span className="font-extrabold text-slate-200">my first job</span> in
-        web development; I'm seeking a collaborative and exciting environment
+        <span className="font-extrabold text-slate-200">collaborations</span> in
+        web development; I'm seeking a open and exciting environment
         where I'll be able to make impactful contributions to solving real life problems. Whether
         you have an exciting project in mind or need an extra pair of hands on
         an ongoing endeavor, please connect with me through any of my social

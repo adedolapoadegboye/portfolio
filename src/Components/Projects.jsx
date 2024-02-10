@@ -42,7 +42,7 @@ const Projects = () => {
           </div>
           <div className="pb-5 w-fit h-fit">
             <h3>
-              Version 1 of an e-commerce website for a Nigerian electronic gadget store. 
+              Version 1 of an e-commerce website for a Nigerian electronic gadget store.
             </h3>
           </div>
           <div className="pb-5">
@@ -76,7 +76,7 @@ const Projects = () => {
               MongoDB
             </button>
             <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
-              AWS
+              AWS S3
             </button>
           </div>
         </div>
