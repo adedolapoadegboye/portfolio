@@ -47,7 +47,7 @@ const Projects = () => {
           </div>
           <div className="pb-5">
             <a
-              href="https://github.com/adedolapoadegboye/aptech"
+              href="https://github.com/adedolapoadegboye/ap-tech"
               target="_blank"
               rel="noreferrer"
               className="flex hover:text-teal-300"
