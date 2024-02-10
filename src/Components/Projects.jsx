@@ -3,20 +3,90 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import weatherappscreenshot from "../images/weather-forecaster-screenshot.png";
 import calcscreenshot from "../images/calculator-project-screenshot.png";
 import portfolioscreenshot from "../images/portfolio-screenshot.png";
+import aptechstore from "../images/aptechstore-screenshot.png";
 
 const Projects = () => {
   return (
     <div className="flex flex-col pb-10 text-justify">
       <div>
-        <h1 id="projects" className="font-semibold text-md lg:text-lg tracking-tighter text-slate-200 pt-2">
+        <h1
+          id="projects"
+          className="font-semibold text-md lg:text-lg tracking-tighter text-slate-200 pt-2"
+        >
           Projects
         </h1>
         <br></br>
       </div>
+      {/* Project 0 */}
+      <div className="flex pb-5">
+        <div className="pe-10 w-1/4 hidden lg:flex">
+          <img
+            className="w-[50px] h-[25px] md:w-[150px] md:h-[50px] lg:w-[300px] lg:h-[80px] "
+            src={aptechstore}
+            alt="e-commerce website project screenshot"
+            width={500}
+            height={250}
+          ></img>
+        </div>
+        <div className="w-full">
+          <div className=" hover:text-teal-300">
+            <a
+              href="https://aptechstore.com"
+              target="_blank"
+              rel="noreferrer"
+              className="flex"
+            >
+              <h2 className="font-bold pe-2 pb-5">E-commerce Electronics Store Website</h2>
+              <FaExternalLinkAlt size={12} />
+            </a>
+          </div>
+          <div className="pb-5 w-fit h-fit">
+            <h3>
+              Version 1 of an e-commerce website for a Nigerian electronic gadget store. 
+            </h3>
+          </div>
+          <div className="pb-5">
+            <a
+              href="https://github.com/adedolapoadegboye/aptech"
+              target="_blank"
+              rel="noreferrer"
+              className="flex hover:text-teal-300"
+            >
+              <h3 className="w-fit pe-2">Source code</h3>
+              <FaExternalLinkAlt size={12} />
+            </a>
+          </div>
+          <div className="flex flex-wrap">
+            <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
+              Figma
+            </button>
+            <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
+              Reactjs
+            </button>
+            <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
+              TailwindCSS
+            </button>
+            <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
+              Node
+            </button>
+            <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
+              Express
+            </button>
+            <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
+              MongoDB
+            </button>
+            <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
+              AWS
+            </button>
+          </div>
+        </div>
+      </div>
+      <br></br>
       {/* Project 1 */}
       <div className="flex pb-5">
         <div className="pe-10 w-1/4 hidden lg:flex">
-          <img className="w-[50px] h-[25px] md:w-[150px] md:h-[50px] lg:w-[300px] lg:h-[80px] "
+          <img
+            className="w-[50px] h-[25px] md:w-[150px] md:h-[50px] lg:w-[300px] lg:h-[80px] "
             src={weatherappscreenshot}
             alt="weather forecaster project screenshot"
             width={500}
@@ -81,7 +151,8 @@ const Projects = () => {
       {/* Project 2 */}
       <div className="flex pb-5">
         <div className="pe-10 w-1/4 hidden lg:flex">
-        <img className="w-[50px] h-[25px] md:w-[150px] md:h-[75px] lg:w-[300px] lg:h-[80px] "
+          <img
+            className="w-[50px] h-[25px] md:w-[150px] md:h-[75px] lg:w-[300px] lg:h-[80px] "
             src={calcscreenshot}
             alt="calculator project screenshot"
             width={500}
@@ -135,7 +206,8 @@ const Projects = () => {
       {/* Project 3 */}
       <div className="flex">
         <div className="pe-10 w-1/4 hidden lg:flex">
-        <img className="w-[50px] h-[25px] md:w-[150px] md:h-[75px] lg:w-[300px] lg:h-[80px] "
+          <img
+            className="w-[50px] h-[25px] md:w-[150px] md:h-[75px] lg:w-[300px] lg:h-[80px] "
             src={portfolioscreenshot}
             alt="portfolio screenshot"
             width={500}
