@@ -9,12 +9,15 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Recommendations = () => {
   return (
-    <div>
-      <div>
-        <h1 id="recommendations" className="font-semibold text-md lg:text-lg tracking-tighter text-slate-200 pt-2">
+    <div
+      id="recommendations"
+      className="flex flex-col gap-16 md:gap-20 pb-10 text-justify"
+    >
+      {" "}
+      <div className="flex flex-col gap-16 md:gap-20 pb-10 text-justify">
+        <h1 className="font-extrabold text-slate-200 text-lg md:text-2xl">
           Recommendations
         </h1>
-        <br></br>
         <div className="h-200 sm:h-200 lg:h-400 2xl:h-800">
           <div>
             <div className="flex pb-3">
@@ -198,7 +201,7 @@ const Recommendations = () => {
                 className="rounded-full ps-3 me-3"
               ></img>
               <div>
-              <a
+                <a
                   href="https://www.linkedin.com/in/maulin-lodhia-p-eng-058743/"
                   target="_blank"
                   rel="noreferrer"
@@ -206,7 +209,8 @@ const Recommendations = () => {
                 >
                   <h1 className="font-bold pe-3"> Maulin Lodhia </h1>
                   <FaExternalLinkAlt size={12} />
-                </a>{" "}                <h3 className="font-light text-sm">
+                </a>{" "}
+                <h3 className="font-light text-sm">
                   June 19, 2023, Maulin was senior to Adedolapo but didn't
                   manage Adedolapo directly
                 </h3>

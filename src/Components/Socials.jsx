@@ -1,5 +1,6 @@
 import React from "react";
-import { FaGithub, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import {FaXTwitter} from "react-icons/fa6";
 
 
 const Socials = () => {
@@ -14,7 +15,7 @@ const Socials = () => {
         <FaGithub size={25} />
       </a>
       <a
-        href="https://www.instagram.com/prince.deepee"
+        href="https://www.instagram.com/adethedeveloper"
         target="_blank"
         rel="noreferrer"
         className="hover:scale-125 hover:text-teal-300"
@@ -22,12 +23,12 @@ const Socials = () => {
         <FaInstagram size={25} />
       </a>
       <a
-        href="https://twitter.com/AdeTheDeveloper"
+        href="https://x.com/AdeTheDeveloper"
         target="_blank"
         rel="noreferrer"
         className="hover:scale-125 hover:text-teal-300"
       >
-        <FaTwitter size={25} />
+        <FaXTwitter size={25} />
       </a>
       <a
         href="https://www.linkedin.com/in/adegboyeadedolapo/"

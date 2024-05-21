@@ -2,8 +2,10 @@ import React from "react";
 
 const Animation = () => {
   return (
-    <div className="hidden lg:flex lg:flex-col w-3/4">
-      <div className="pb-5 font-extrabold text-white">Fun Fact about Me</div>
+    <div className="hidden md:flex md:flex-col w-3/4">
+      <div className="pb-5 font-extrabold text-white text-lg md:text-2xl">
+        Fun fact about me
+      </div>
       <div className="text-justify">
         <h1>
           In my free time, I enjoy participating in business and product naming
@@ -13,20 +15,19 @@ const Animation = () => {
               href="https://www.squadhelp.com/domain-portfolio/Deepee/70514"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-teal-300 font-bold"
+              className="hover:text-teal-300 font-bold text-white"
             >
-              Squadhelp.com
+              Atom.com
             </a>
           </span>{" "}
           <br></br>
           <br></br>
-          Check out some of the product and business name and tagline contests
-          I've won in the past{" "}
+          Check out some of the products and businesses I've helped transform{" "}
           <a
             href="https://www.squadhelp.com/winning-portfolio/Deepee/70514"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-teal-300 font-bold"
+            className="hover:text-teal-300 font-bold text-white"
           >
             here
           </a>

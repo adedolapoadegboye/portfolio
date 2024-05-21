@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import About from "./About";
-import Education from "./Education";
-import PageFooter from "./PageFooter";
-import Projects from "./Projects";
-import Recommendations from "./Recommendations";
-import WorkExperience from "./WorkExperience";
+// import About from "./About";
+// import Education from "./Education";
+// import PageFooter from "./PageFooter";
+// import Projects from "./Projects";
+// import Recommendations from "./Recommendations";
+// import WorkExperience from "./WorkExperience";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const SideNav = () => {

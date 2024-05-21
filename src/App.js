@@ -9,21 +9,23 @@ import SideNav from "./Components/SideNav";
 import Socials from "./Components/Socials";
 import WorkExperience from "./Components/WorkExperience";
 import Animation from "./Components/Animation";
+// import DancingUnicorn from "./Components/DancingUnicorn";
 
 function App() {
   return (
-    <div className="text-white bg-slate-900 pb-5 scroll-smooth">
-      <div className="flex flex-col lg:flex-row py-[40px] lg:py-[80px] px-[40px] lg:px-[100px] bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 h-fit">
-        <div className="lg:flex lg:flex-col lg:justify-between w-full h-full lg:w-1/2  sticky lg:top-[80px] lg:left-[100px]">
+    <div className="flex flex-col gap-16 md:gap-20text-white bg-slate-900 scroll-smooth">
+      <div className="flex flex-col md:flex-row py-[40px] md:py-[80px] px-[40px] md:px-[100px] bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 h-fit">
+        <div className="md:flex md:flex-col md:justify-between w-full h-full md:w-1/2  sticky md:top-[80px] md:left-[100px] md:px-20">
           <Header />
           <Socials />
           <br></br>
           <SideNav />
           <br></br>
+          {/* <DancingUnicorn heading={"Fun Fact"} /> */}
           <Animation />
         </div>
         <div className="h-full w-full lg:w-1/2">
-          <div className="w-full h-fit">
+          <div className="flex flex-col gap-5 md:gap-10 w-full h-fit">
             <About />
             <Projects />
             <WorkExperience />
@@ -32,7 +34,6 @@ function App() {
           </div>
         </div>
       </div>
-      <hr></hr>
       <div className="pt-5">
         <PageFooter />
       </div>

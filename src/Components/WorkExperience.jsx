@@ -3,18 +3,17 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const WorkExperience = () => {
   return (
-    <div>
+    <div
+      id="experience"
+      className="flex flex-col gap-16 md:gap-20 pb-10 text-justify"
+    >
       <div>
-        <h1
-          id="experience"
-          className="font-semibold text-md lg:text-lg tracking-tighter text-slate-200 pt-2"
-        >
+        <h1 className="font-extrabold text-slate-200 text-lg md:text-2xl">
           Experience
         </h1>
-        <br></br>
       </div>
       {/* Tektelic */}
-      <div className="flex">
+      <div className="flex hover:border hover:border-slate-900 hover:shadow-2xl hover:px-4 hover:py-4 hover:rounded-2xl hover:shadow-cyan-500/100">
         <div className="pe-10 w-1/4 lg:flex">
           <h1>Nov 2021 - Present</h1>
         </div>
@@ -26,8 +25,8 @@ const WorkExperience = () => {
               rel="noreferrer"
               className="flex"
             >
-              <h2 className="font-bold pe-2 pb-5">
-                IoT Sensor Systems Engineer at Tektelic Communications
+              <h2 className="font-bold pe-2 pb-5 text-white">
+                Sensor Systems Engineer at Tektelic Communications
               </h2>
               <FaExternalLinkAlt size={12} />
             </a>
@@ -50,23 +49,10 @@ const WorkExperience = () => {
               Documentations
             </button>
           </div>
-          <div className="hidden">
-            <a
-              href="https://drive.google.com/file/d/1lspIiInBWXffOohOf7EmahowaZNmPW_d/view?usp=share_link"
-              target="_blank"
-              rel="noreferrer"
-              className="flex text-white hover:underline hover:underline-offset-2 hover:text-teal-300 pt-5"
-            >
-              <h1 className="pe-2">View Resume</h1>
-              <FaExternalLinkAlt size={12} />
-            </a>
-          </div>
         </div>
       </div>
-      <br></br>
-<br></br>
       {/* Calgary Parking Authority */}
-      <div className="flex">
+      <div className="flex hover:border hover:border-slate-900 hover:shadow-2xl hover:px-4 hover:py-4 hover:rounded-2xl hover:shadow-cyan-500/100">
         <div className="pe-10 w-1/4 lg:flex">
           <h1>May 2021 - Oct 2021</h1>
         </div>
@@ -78,7 +64,7 @@ const WorkExperience = () => {
               rel="noreferrer"
               className="flex"
             >
-              <h2 className="font-bold pe-2 pb-5">
+              <h2 className="font-bold pe-2 pb-5 text-white">
                 Network Engineer Intern at Calgary Parking Authority
               </h2>
               <FaExternalLinkAlt size={12} />
@@ -86,10 +72,10 @@ const WorkExperience = () => {
           </div>
           <div className="pb-5 w-fit h-fit text-justify">
             <h3>
-              Managed the ticketing system by assigning external
-              tickets to the appropriate team for resolution, and providing
-              tier-1 IT support to internal users with an overall ticket
-              resolution average of 85% within the first 3 days.
+              Managed the ticketing system by assigning external tickets to the
+              appropriate team for resolution, and providing tier-1 IT support
+              to internal users with an overall ticket resolution average of 85%
+              within the first 3 days.
             </h3>
           </div>
           <div className="lg:flex lg:flex-wrap hidden">
@@ -103,22 +89,19 @@ const WorkExperience = () => {
               Documentations
             </button>
           </div>
-          <br></br>
-          <div>
-            <a
-              href="https://drive.google.com/file/d/1If2VyEiaRSrTTJlYyoEn7-tvaQEXtFgm/view?usp=share_link"
-              target="_blank"
-              rel="noreferrer"
-              className="flex text-white hover:underline hover:underline-offset-2 hover:text-teal-300 pt-5"
-            >
-              <h1 className="pe-2">View Resume</h1>
-              <FaExternalLinkAlt size={12} />
-            </a>
-          </div>
         </div>
       </div>
-      <br></br>
-      <br></br>
+      <div>
+        <a
+          href="https://drive.google.com/file/d/1vLHCaLv5RpZW-xhyLRAm0TfXsteMOYRG/view?usp=share_link"
+          target="_blank"
+          rel="noreferrer"
+          className="flex text-white hover:underline hover:underline-offset-2 hover:text-teal-300 pt-5"
+        >
+          <h1 className="pe-2 text-white">View Resume</h1>
+          <FaExternalLinkAlt size={12} />
+        </a>
+      </div>
     </div>
   );
 };
