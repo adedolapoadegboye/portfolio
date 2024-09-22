@@ -13,7 +13,7 @@ const Projects = () => {
       id="projects"
       className="flex flex-col gap-16 md:gap-20 pb-10 text-justify"
     >
-      <h1 className="font-extrabold text-slate-200 text-lg md:text-2xl">
+      <h1 className="font-extrabold text-slate-200 text-lg md:text-2xl 2xl:text-4xl">
         Projects
       </h1>
       {/* Project 1 */}
@@ -35,7 +35,9 @@ const Projects = () => {
               rel="noreferrer"
               className="flex"
             >
-              <h2 className="font-bold pe-2 pb-5 text-white">GNSS Metrics</h2>
+              <h2 className="font-bold pe-2 pb-5 text-white 2xl:text-2xl">
+                GNSS Metrics
+              </h2>
               <FaExternalLinkAlt size={12} />
             </a>
           </div>
@@ -98,7 +100,9 @@ const Projects = () => {
               rel="noreferrer"
               className="flex"
             >
-              <h2 className="font-bold pe-2 pb-5 text-white">Coinwatch Pro</h2>
+              <h2 className="font-bold pe-2 pb-5 text-white 2xl:text-2xl">
+                Coinwatch Pro
+              </h2>
               <FaExternalLinkAlt size={12} />
             </a>
           </div>
@@ -162,7 +166,9 @@ const Projects = () => {
               rel="noreferrer"
               className="flex"
             >
-              <h2 className="font-bold pe-2 pb-5 text-white">AP-Tech Store</h2>
+              <h2 className="font-bold pe-2 pb-5 text-white 2xl:text-2xl">
+                AP-Tech Store
+              </h2>
               <FaExternalLinkAlt size={12} />
             </a>
           </div>
@@ -237,7 +243,7 @@ const Projects = () => {
               rel="noreferrer"
               className="flex"
             >
-              <h2 className="font-bold pe-2 pb-5 text-white">
+              <h2 className="font-bold pe-2 pb-5 text-white 2xl:text-2xl">
                 Portfolio Website
               </h2>
               <FaExternalLinkAlt size={12} />
@@ -309,7 +315,7 @@ const Projects = () => {
               rel="noreferrer"
               className="flex"
             >
-              <h2 className="font-bold pe-2 pb-5 text-white">
+              <h2 className="font-bold pe-2 pb-5 text-white 2xl:text-2xl">
                 Weather Forecaster App
               </h2>
               <FaExternalLinkAlt size={12} />
@@ -381,7 +387,9 @@ const Projects = () => {
               rel="noreferrer"
               className="flex"
             >
-              <h2 className="font-bold pe-2 pb-5 text-white">Calculator App</h2>
+              <h2 className="font-bold pe-2 pb-5 text-white 2xl:text-2xl">
+                Calculator App
+              </h2>
               <FaExternalLinkAlt size={12} />
             </a>
           </div>

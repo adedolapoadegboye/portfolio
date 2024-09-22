@@ -11,11 +11,11 @@ const Recommendations = () => {
   return (
     <div
       id="recommendations"
-      className="flex flex-col gap-16 md:gap-20 pb-10 text-justify"
+      className="flex flex-col gap-16 md:gap-20 pb-0 text-justify"
     >
       {" "}
       <div className="flex flex-col gap-16 md:gap-20 pb-10 text-justify">
-        <h1 className="font-extrabold text-slate-200 text-lg md:text-2xl">
+        <h1 className="font-extrabold text-slate-200 text-lg md:text-2xl 2xl:text-4xl">
           Recommendations
         </h1>
         <div className="h-200 sm:h-200 lg:h-400 2xl:h-800">
@@ -34,7 +34,10 @@ const Recommendations = () => {
                   rel="noreferrer"
                   className="flex hover:text-teal-300"
                 >
-                  <h1 className="font-bold pe-3"> Ashok Narayanan </h1>
+                  <h1 className="font-bold pe-3 2xl:text-2xl">
+                    {" "}
+                    Ashok Narayanan{" "}
+                  </h1>
                   <FaExternalLinkAlt size={12} />
                 </a>
                 <h3 className="font-light text-sm">
@@ -53,7 +56,7 @@ const Recommendations = () => {
               go-to person for multiple projects and took ownership of various
               aspects of system development. He is very organized and
               prioritizes his tasks well to be able to meet the demands of
-              multiple projects in a timely manner. I highly recommend Ade.
+              multiple projects in a timely manner. I highly recommend Ade.{" "}
             </h2>
             <div className="flex justify-end">
               <FaQuoteRight size={25} />
@@ -76,7 +79,7 @@ const Recommendations = () => {
                   rel="noreferrer"
                   className="flex hover:text-teal-300"
                 >
-                  <h1 className="font-bold pe-3"> Tom Danshin </h1>
+                  <h1 className="font-bold pe-3 2xl:text-2xl"> Tom Danshin </h1>
                   <FaExternalLinkAlt size={12} />
                 </a>{" "}
                 <h3 className="font-light text-sm">
@@ -121,7 +124,7 @@ const Recommendations = () => {
                   rel="noreferrer"
                   className="flex hover:text-teal-300"
                 >
-                  <h1 className="font-bold pe-3"> Alhamd Khan </h1>
+                  <h1 className="font-bold pe-3 2xl:text-2xl"> Alhamd Khan </h1>
                   <FaExternalLinkAlt size={12} />
                 </a>
                 <h3 className="font-light text-sm">
@@ -168,7 +171,10 @@ const Recommendations = () => {
                   rel="noreferrer"
                   className="flex hover:text-teal-300"
                 >
-                  <h1 className="font-bold pe-3"> Maheeka Wijesinghe </h1>
+                  <h1 className="font-bold pe-3 2xl:text-2xl">
+                    {" "}
+                    Maheeka Wijesinghe{" "}
+                  </h1>
                   <FaExternalLinkAlt size={12} />
                 </a>{" "}
                 <h3 className="font-light text-sm">
@@ -207,7 +213,10 @@ const Recommendations = () => {
                   rel="noreferrer"
                   className="flex hover:text-teal-300"
                 >
-                  <h1 className="font-bold pe-3"> Maulin Lodhia </h1>
+                  <h1 className="font-bold pe-3 2xl:text-2xl">
+                    {" "}
+                    Maulin Lodhia{" "}
+                  </h1>
                   <FaExternalLinkAlt size={12} />
                 </a>{" "}
                 <h3 className="font-light text-sm">

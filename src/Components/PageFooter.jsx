@@ -9,9 +9,9 @@ import {
 
 const PageFooter = () => {
   return (
-    <footer className="flex justify-evenly border-t-2 border-gray-700 pt-4 noto-sans-1 font-normal text-white">
+    <footer className="flex justify-evenly border-t-2 border-gray-800 pt-14 mb-14 md:pt-7 md:mb-7 noto-sans-1 font-normal text-white">
       <div>
-        <p className="text-xs md:text-sm">
+        <p className="text-xs md:text-sm 2xl:text-xl">
           &#169; Copyright 2024, Adedolapo.dev
         </p>
       </div>

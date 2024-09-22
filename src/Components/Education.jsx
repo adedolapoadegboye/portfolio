@@ -9,9 +9,9 @@ const Education = () => {
     >
       {" "}
       <div>
-        <h1 className="font-extrabold text-slate-200 text-lg md:text-2xl">
+        <h3 className="font-extrabold text-slate-200 text-lg md:text-2xl 2xl:text-4xl">
           Education
-        </h1>
+        </h3>
       </div>
       {/* Masters */}
       <div className="flex hover:border hover:border-slate-900 hover:shadow-2xl hover:px-4 hover:py-4 hover:rounded-2xl hover:shadow-cyan-500/100">
@@ -26,9 +26,9 @@ const Education = () => {
               rel="noreferrer"
               className="col font-bold pe-2 pb-5"
             >
-              <h2 className="font-bold text-white">
+              <h2 className="font-bold text-white 2xl:text-2xl">
                 Masters Degree, Electrical and Computer Engineering, University
-                of Calgary
+                of Calgary, Alberta, Canada
               </h2>
             </a>
           </div>
@@ -61,7 +61,7 @@ const Education = () => {
               rel="noreferrer"
               className="col font-bold pe-2 pb-5"
             >
-              <h2 className="font-bold text-white">
+              <h2 className="font-bold text-white 2xl:text-2xl">
                 Bachelors Degree, Electrical and Computer Engineering, Kwara
                 State University, Nigeria
               </h2>
@@ -69,17 +69,6 @@ const Education = () => {
           </div>
           <div className="pb-5 w-fit h-fit text-justify">
             <h3>Graduated with a CGPA of 3.63/4.00</h3>
-          </div>
-          <div className="hidden">
-            <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
-              System Design
-            </button>
-            <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
-              Feature Testing
-            </button>
-            <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
-              Documentations
-            </button>
           </div>
           <div>
             <a

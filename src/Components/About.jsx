@@ -2,51 +2,61 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className="text-justify pb-10 ">
-      <h2 className="font-semibold text-md md:text-lg tracking-tighter text-slate-200 pt-2 hidden">
+    <div
+      id="about"
+      className="text-justify pb-10 leading-relaxed tracking-wide"
+    >
+      <h2 className="font-semibold text-md md:text-lg lg:text-2xl tracking-tighter text-slate-200 pt-2 hidden">
         About
       </h2>
       <br></br>
-      <h3 className="font-extrabold text-slate-200 text-lg md:text-2xl">
+      <h3 className="font-extrabold text-slate-200 text-lg md:text-2xl lg:text-4xl">
         Hello World!
       </h3>
       <br></br>
-      <h3>
-        My name is <span className="font-extrabold text-slate-200">Ade</span>
-        —a Sensor Systems Engineer with a knack for full-stack web and mobile
-        development. My professional journey kicked off as an{" "}
+      <h3 className="2xl:text-lg">
+        My name is <span className="font-extrabold text-slate-200">Ade </span> —
+        a <span className="font-extrabold text-slate-200">GNSS Engineer</span>{" "}
+        with a deep passion for Satellite Communications, including Positioning
+        and Navigation systems, Space Communications, and Satellite Payload
+        Engineering. I focus on researching, designing, and developing solutions
+        that address challenges in the space communications industry—whether
+        through embedded software or full-stack web and mobile applications for
+        post-processing and comprehensive system evaluations.
+        <br />
+        <br />
+        My professional journey began as a{" "}
         <span className="font-extrabold text-slate-200">
-          Engineer-in-Training
-        </span>
-        , where I delved into IoT sensor intricacies, refining my craft in
-        system design and development. Since then, I've seamlessly transitioned
-        into the world of{" "}
+          Systems Engineer-in-Training
+        </span>{" "}
+        at{" "}
         <span className="font-extrabold text-slate-200">
-          Software Engineering
+          Tektelic Communications
         </span>
-        , leveraging my expertise to design and develop robust, user-friendly,
-        and accessible digital solutions.
+        , where I honed my expertise in LoRaWAN IoT sensors and systems design.
+        A notable achievement during this time was the design and testing of a
+        lone worker safety device, utilizing GNSS for outdoor localization and
+        BLE technology for indoor positioning.
+        <br />
+        <br />I have since transitioned into{" "}
+        <span className="font-extrabold text-slate-200">GNSS Engineering</span>,
+        and currently work as a{" "}
+        <span className="font-extrabold text-slate-200">GNSS Engineer</span> at{" "}
+        <span className="font-extrabold text-slate-200">Quectel</span>. In this
+        role, I support and assist customers in implementing GNSS solutions to
+        meet their complex business needs. These applications span from asset
+        tracking—requiring decimeter-level accuracy—to advanced use cases such
+        as self-driving cars and autonomous systems, which demand
+        centimeter-level precision.
       </h3>
       <br></br>
-      <h3>
-        With a proven track record in{" "}
-        <span className="font-extrabold text-slate-200">
-          sensor system optimization and full-stack proficiency{" "}
-        </span>
-        , I have spearheaded and collaborated in projects that have
-        revolutionized industries. From enhancing IoT sensor accuracy to
-        crafting seamless digital tools, I've always aimed at leaving an
-        indelible mark on every endeavor. However, beyond technical prowess, my
-        passion lies in problem-solving—whether it's unraveling complex sensor
-        algorithms or architecting innovative web solutions.
-        <br></br>
-        <br></br>
-        Ready to collaborate on the next big thing? Reach out to me via any of
-        my social link or email at{" "}
+      <h3 className="2xl:text-lg">
+        Excited to collaborate on the next big project? Feel free to connect
+        with me through any of my social links or email me at{" "}
         <span className="font-extrabold text-slate-200">
           adedolapo.adegboye@alumni.ucalgary.ca
         </span>
-        , and let's engineer greatness together!
+        . Let's engineer greatness together!
       </h3>
     </div>
   );

@@ -8,14 +8,58 @@ const WorkExperience = () => {
       className="flex flex-col gap-16 md:gap-20 pb-10 text-justify"
     >
       <div>
-        <h1 className="font-extrabold text-slate-200 text-lg md:text-2xl">
+        <h1 className="font-extrabold text-slate-200 text-lg md:text-2xl 2xl:text-4xl">
           Experience
         </h1>
+      </div>
+      {/* Quectel */}
+      <div className="flex hover:border hover:border-slate-900 hover:shadow-2xl hover:px-4 hover:py-4 hover:rounded-2xl hover:shadow-cyan-500/100">
+        <div className="pe-10 w-1/4 lg:flex">
+          <h1>Sept 2024 - Present</h1>
+        </div>
+        <div className="w-full">
+          <div className=" hover:text-teal-300">
+            <a
+              href="https://quectel.com"
+              target="_blank"
+              rel="noreferrer"
+              className="flex"
+            >
+              <h2 className="font-bold pe-2 pb-5 text-white 2xl:text-2xl">
+                GNSS Engineer at Quectel Wireless
+              </h2>
+              <FaExternalLinkAlt size={12} />
+            </a>
+          </div>
+          <div className="pb-5 w-fit h-fit text-justify">
+            <h3>
+              Providing technical support and guidance to enterprise-level
+              customers, helping them integrate and optimize GNSS solutions for
+              applications like asset tracking and autonomous systems, while
+              ensuring precise positioning and addressing any hardware or
+              software challenges
+            </h3>
+          </div>
+          <div className="lg:flex lg:flex-wrap hidden">
+            <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
+              GNSS
+            </button>
+            <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
+              Embedded Software Development
+            </button>
+            <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
+              Documentations
+            </button>
+            <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
+              Hardware Design review{" "}
+            </button>
+          </div>
+        </div>
       </div>
       {/* Tektelic */}
       <div className="flex hover:border hover:border-slate-900 hover:shadow-2xl hover:px-4 hover:py-4 hover:rounded-2xl hover:shadow-cyan-500/100">
         <div className="pe-10 w-1/4 lg:flex">
-          <h1>Nov 2021 - Present</h1>
+          <h1>Nov 2021 - Sept 2024</h1>
         </div>
         <div className="w-full">
           <div className=" hover:text-teal-300">
@@ -25,7 +69,7 @@ const WorkExperience = () => {
               rel="noreferrer"
               className="flex"
             >
-              <h2 className="font-bold pe-2 pb-5 text-white">
+              <h2 className="font-bold pe-2 pb-5 text-white 2xl:text-2xl">
                 Sensor Systems Engineer at Tektelic Communications
               </h2>
               <FaExternalLinkAlt size={12} />
@@ -40,7 +84,7 @@ const WorkExperience = () => {
           </div>
           <div className="lg:flex lg:flex-wrap hidden">
             <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
-              System Design
+              Sensor System Design
             </button>
             <button className="px-2 text-teal-300 bg-teal-900 mx-2 my-1 rounded-full">
               Feature Testing
@@ -64,7 +108,7 @@ const WorkExperience = () => {
               rel="noreferrer"
               className="flex"
             >
-              <h2 className="font-bold pe-2 pb-5 text-white">
+              <h2 className="font-bold pe-2 pb-5 text-white 2xl:text-2xl">
                 Network Engineer Intern at Calgary Parking Authority
               </h2>
               <FaExternalLinkAlt size={12} />
